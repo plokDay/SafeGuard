@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\PETOOL">
+      <UniqueIdentifier>{ffb900c2-f2c2-4bfb-9af0-736f1dd5f607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\PE">
+      <UniqueIdentifier>{f45071fc-4069-4ae9-ab26-20d2de6d5753}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDELAY.h">
+      <Filter>头文件\PETOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="CDIRECTORY.h">
+      <Filter>头文件\PETOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="CEXPORT.h">
+      <Filter>头文件\PETOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="CIMPORT.h">
+      <Filter>头文件\PETOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="CLORDPE.h">
+      <Filter>头文件\PETOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="CRELOCATION.h">
+      <Filter>头文件\PETOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="CRESOURCE.h">
+      <Filter>头文件\PETOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="CRVATOFOA.h">
+      <Filter>头文件\PETOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="CSECTION.h">
+      <Filter>头文件\PETOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="CTLS.h">
+      <Filter>头文件\PETOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\PETOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="mLordPE1Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mLordPE1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindows.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CClean.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CService.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CModule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CButtonPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHomePage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPEINFO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AHome.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSOFT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDELAY.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CDIRECTORY.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CEXPORT.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CIMPORT.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CLORDPE.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CRELOCATION.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CRESOURCE.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CRVATOFOA.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CSECTION.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CTLS.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="mLordPE1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mLordPE1Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindows.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CClean.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CModule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CButtonPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CHomePage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CPEINFO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AHome.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSOFT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mLordPE1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\mLordPE1.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\mLordPE1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
